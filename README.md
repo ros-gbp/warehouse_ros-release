@@ -1,3 +1,24 @@
+## warehouse_ros (jade) - 0.8.8-0
+
+The packages in the `warehouse_ros` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade warehouse_ros` on `Wed, 13 May 2015 06:54:56 -0000`
+
+The `warehouse_ros` package was released.
+
+Version of package(s) in repository `warehouse_ros`:
+- upstream repository: https://github.com/ros-planning/warehouse_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 ## warehouse_ros (indigo) - 0.8.7-0
 
 The packages in the `warehouse_ros` repository were released into the `indigo` distro by running `/usr/bin/bloom-release warehouse_ros -r indigo -t indigo` on `Mon, 18 Aug 2014 05:53:26 -0000`
