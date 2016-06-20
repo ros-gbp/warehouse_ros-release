@@ -1,3 +1,26 @@
+## warehouse_ros (kinetic) - 0.9.0-0
+
+The packages in the `warehouse_ros` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic warehouse_ros` on `Mon, 20 Jun 2016 19:09:51 -0000`
+
+The `warehouse_ros` package was released.
+
+Version of package(s) in repository `warehouse_ros`:
+
+- upstream repository: https://github.com/ros-planning/warehouse_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.9.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## warehouse_ros (jade) - 0.9.0-0
 
 The packages in the `warehouse_ros` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade warehouse_ros` on `Mon, 20 Jun 2016 19:03:41 -0000`
