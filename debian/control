@@ -1,0 +1,12 @@
+Source: ros-jade-warehouse-ros
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@google.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-rostest, ros-jade-rostime, ros-jade-std-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/warehouse_ros
+Standards-Version: 3.9.2
+
+Package: ros-jade-warehouse-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-jade-geometry-msgs, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-rostime, ros-jade-std-msgs, ros-jade-tf
+Description: Persistent storage of ROS messages
