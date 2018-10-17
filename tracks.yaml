@@ -97,12 +97,12 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: jade-devel
+    devel_branch: kinetic-devel
     last_version: 0.9.0
     name: upstream
     patches: null
     release_inc: '0'
-    release_repo_url: git@github.com:ros-gbp/warehouse_ros-release.git
+    release_repo_url: null
     release_tag: :{version}
     ros_distro: kinetic
     vcs_type: git
