@@ -1,3 +1,26 @@
+## warehouse_ros (melodic) - 0.9.4-1
+
+The packages in the `warehouse_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic warehouse_ros` on `Sat, 25 Apr 2020 15:18:13 -0000`
+
+The `warehouse_ros` package was released.
+
+Version of package(s) in repository `warehouse_ros`:
+
+- upstream repository: https://github.com/ros-planning/warehouse_ros.git
+- release repository: https://github.com/ros-gbp/warehouse_ros-release.git
+- rosdistro version: `0.9.3-1`
+- old version: `0.9.3-1`
+- new version: `0.9.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.17`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## warehouse_ros (kinetic) - 0.9.4-1
 
 The packages in the `warehouse_ros` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic warehouse_ros` on `Sat, 25 Apr 2020 15:10:49 -0000`
