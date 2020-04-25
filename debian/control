@@ -1,0 +1,12 @@
+Source: ros-kinetic-warehouse-ros
+Section: misc
+Priority: optional
+Maintainer: MoveIt! Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-pluginlib (>= 1.11.2), ros-kinetic-roscpp, ros-kinetic-rostest, ros-kinetic-rostime, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: http://ros.org/wiki/warehouse_ros
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-warehouse-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-geometry-msgs, ros-kinetic-pluginlib (>= 1.11.2), ros-kinetic-roscpp, ros-kinetic-rostime, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: Persistent storage of ROS messages
