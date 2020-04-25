@@ -1,0 +1,12 @@
+Source: ros-noetic-warehouse-ros
+Section: misc
+Priority: optional
+Maintainer: MoveIt! Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libgtest-dev, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-pluginlib (>= 1.11.2), ros-noetic-roscpp, ros-noetic-rostest, ros-noetic-rostime, ros-noetic-std-msgs, ros-noetic-tf
+Homepage: http://ros.org/wiki/warehouse_ros
+Standards-Version: 3.9.2
+
+Package: ros-noetic-warehouse-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-noetic-geometry-msgs, ros-noetic-pluginlib (>= 1.11.2), ros-noetic-roscpp, ros-noetic-rostime, ros-noetic-std-msgs, ros-noetic-tf
+Description: Persistent storage of ROS messages
