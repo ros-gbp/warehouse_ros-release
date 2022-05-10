@@ -52,29 +52,22 @@ public:
   virtual bool hasData() const = 0;
   virtual Metadata::ConstPtr metadata() const = 0;
   virtual std::string message() const = 0;
+  virtual ~ResultIteratorHelper() = default;
 
   typedef boost::shared_ptr<ResultIteratorHelper> Ptr;
 };
 
 template <class M>
 class ResultIterator
-    : public boost::iterator_facade<ResultIterator<M>, typename MessageWithMetadata<M>::ConstPtr,
-                                    boost::single_pass_traversal_tag, typename MessageWithMetadata<M>::ConstPtr>
+  : public boost::iterator_facade<ResultIterator<M>, typename MessageWithMetadata<M>::ConstPtr,
+                                  boost::single_pass_traversal_tag, typename MessageWithMetadata<M>::ConstPtr>
 {
 public:
   /// \brief Constructor
   ResultIterator(ResultIteratorHelper::Ptr results, bool metadata_only);
 
-  /// \brief Copy constructor
-  ResultIterator(const ResultIterator& rhs);
-
-  /// \brief Constructor for past_the_end iterator
-  ResultIterator();
-
-  /// \brief Destructor
-  ~ResultIterator();
-
-  ResultIterator& operator=(const ResultIterator& other);
+  /// \brief Default constructor
+  ResultIterator() = default;
 
 private:
   friend class boost::iterator_core_access;
@@ -85,7 +78,7 @@ private:
   bool equal(const ResultIterator<M>& other) const;
 
   ResultIteratorHelper::Ptr results_;
-  const bool metadata_only_;
+  bool metadata_only_ = false;
 };
 
 template <class M>
@@ -94,7 +87,7 @@ struct QueryResults
   typedef std::pair<ResultIterator<M>, ResultIterator<M> > range_t;
 };
 
-}  // namespace
+}  // namespace warehouse_ros
 
 #include "impl/query_results_impl.hpp"
 
